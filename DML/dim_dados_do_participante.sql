@@ -1,0 +1,27 @@
+INSERT INTO `tcc-tsi.microdados_enem_2022.dim_dados_do_participante` (
+    NU_INSCRICAO,
+    TP_FAIXA_ETARIA,
+    TP_SEXO,
+    TP_ESTADO_CIVIL,
+    TP_COR_RACA,
+    TP_NACIONALIDADE,
+    TP_ST_CONCLUSAO,
+    TP_ANO_CONCLUIU,
+    TP_ESCOLA,
+    TP_ENSINO,
+    IN_TREINEIRO
+)
+SELECT 
+    NU_INSCRICAO,
+    TP_FAIXA_ETARIA,
+    TP_SEXO,
+    TP_ESTADO_CIVIL,
+    TP_COR_RACA,
+    TP_NACIONALIDADE,
+    TP_ST_CONCLUSAO,
+    TP_ANO_CONCLUIU,
+    TP_ESCOLA,
+    TP_ENSINO,
+    IN_TREINEIRO
+FROM 
+    `tcc-tsi.microdados_enem_2022.enrich_microdados_enem_2022`;

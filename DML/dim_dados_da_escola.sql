@@ -1,0 +1,21 @@
+INSERT INTO `tcc-tsi.microdados_enem_2022.dim_dados_da_escola` (
+    NU_INSCRICAO,
+    CO_MUNICIPIO_ESC,
+    NO_MUNICIPIO_ESC,
+    CO_UF_ESC,
+    SG_UF_ESC,
+    TP_DEPENDENCIA_ADM_ESC,
+    TP_LOCALIZACAO_ESC,
+    TP_SIT_FUNC_ESC
+)
+SELECT 
+    NU_INSCRICAO,
+    CO_MUNICIPIO_ESC,
+    NO_MUNICIPIO_ESC,
+    CO_UF_ESC,
+    SG_UF_ESC,
+    TP_DEPENDENCIA_ADM_ESC,
+    TP_LOCALIZACAO_ESC,
+    TP_SIT_FUNC_ESC
+FROM 
+    `tcc-tsi.microdados_enem_2022.enrich_microdados_enem_2022`;

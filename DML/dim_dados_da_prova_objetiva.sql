@@ -1,0 +1,41 @@
+INSERT INTO `tcc-tsi.microdados_enem_2022.dim_dados_da_prova_objetiva` (
+    NU_INSCRICAO,
+    CO_PROVA_CN,
+    CO_PROVA_CH,
+    CO_PROVA_LC,
+    CO_PROVA_MT,
+    TP_LINGUA,
+    TP_PRESENCA_CN,
+    TP_PRESENCA_CH,
+    TP_PRESENCA_LC,
+    TP_PRESENCA_MT,
+    TX_RESPOSTAS_CN,
+    TX_RESPOSTAS_CH,
+    TX_RESPOSTAS_LC,
+    TX_RESPOSTAS_MT,
+    TX_GABARITO_CN,
+    TX_GABARITO_CH,
+    TX_GABARITO_LC,
+    TX_GABARITO_MT
+)
+SELECT 
+    NU_INSCRICAO,
+    CO_PROVA_CN,
+    CO_PROVA_CH,
+    CO_PROVA_LC,
+    CO_PROVA_MT,
+    TP_LINGUA,
+    TP_PRESENCA_CN,
+    TP_PRESENCA_CH,
+    TP_PRESENCA_LC,
+    TP_PRESENCA_MT,
+    TX_RESPOSTAS_CN,
+    TX_RESPOSTAS_CH,
+    TX_RESPOSTAS_LC,
+    TX_RESPOSTAS_MT,
+    TX_GABARITO_CN,
+    TX_GABARITO_CH,
+    TX_GABARITO_LC,
+    TX_GABARITO_MT
+FROM 
+    `tcc-tsi.microdados_enem_2022.enrich_microdados_enem_2022`;

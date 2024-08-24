@@ -1,0 +1,20 @@
+CREATE TABLE `tcc-tsi.microdados_enem_2022.dim_dados_da_prova_objetiva` (
+    NU_INSCRICAO STRING OPTIONS(description="Número de inscrição do participante"),
+    CO_PROVA_CN STRING OPTIONS(description="Código da prova de Ciências da Natureza"),
+    CO_PROVA_CH STRING OPTIONS(description="Código da prova de Ciências Humanas"),
+    CO_PROVA_LC STRING OPTIONS(description="Código da prova de Linguagens e Códigos"),
+    CO_PROVA_MT STRING OPTIONS(description="Código da prova de Matemática"),
+    TP_LINGUA STRING OPTIONS(description="Língua estrangeira escolhida pelo participante"),
+    TP_PRESENCA_CN STRING OPTIONS(description="Presença na prova de Ciências da Natureza"),
+    TP_PRESENCA_CH STRING OPTIONS(description="Presença na prova de Ciências Humanas"),
+    TP_PRESENCA_LC STRING OPTIONS(description="Presença na prova de Linguagens e Códigos"),
+    TP_PRESENCA_MT STRING OPTIONS(description="Presença na prova de Matemática"),
+    TX_RESPOSTAS_CN STRING OPTIONS(description="Respostas do candidato na prova de Ciências da Natureza"),
+    TX_RESPOSTAS_CH STRING OPTIONS(description="Respostas do candidato na prova de Ciências Humanas"),
+    TX_RESPOSTAS_LC STRING OPTIONS(description="Respostas do candidato na prova de Linguagens e Códigos"),
+    TX_RESPOSTAS_MT STRING OPTIONS(description="Respostas do candidato na prova de Matemática"),
+    TX_GABARITO_CN STRING OPTIONS(description="Gabarito da prova de Ciências da Natureza"),
+    TX_GABARITO_CH STRING OPTIONS(description="Gabarito da prova de Ciências Humanas"),
+    TX_GABARITO_LC STRING OPTIONS(description="Gabarito da prova de Linguagens e Códigos"),
+    TX_GABARITO_MT STRING OPTIONS(description="Gabarito da prova de Matemática")
+);
