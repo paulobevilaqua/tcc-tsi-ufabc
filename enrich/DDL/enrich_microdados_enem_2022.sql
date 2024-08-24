@@ -1,5 +1,5 @@
-CREATE OR REPLACE TABLE `tcc-tsi.microdados_enem_2022.raw_microdados_enem_2022` (
-    NU_INSCRICAO STRING OPTIONS(description="Número de inscrição1"),
+CREATE OR REPLACE TABLE `tcc-tsi.microdados_enem_2022.enrich_microdados_enem_2022` (
+    NU_INSCRICAO STRING OPTIONS(description="Número de inscrição"),
     NU_ANO STRING OPTIONS(description="Ano do Enem"),
     TP_FAIXA_ETARIA STRING OPTIONS(description="Faixa etária2"),
     TP_SEXO STRING OPTIONS(description="Sexo"),

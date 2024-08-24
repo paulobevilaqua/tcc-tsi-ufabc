@@ -1,4 +1,4 @@
-CREATE TABLE `tcc-tsi.microdados_enem_2022.dim_dados_do_participante` (
+CREATE OR REPLACE TABLE `tcc-tsi.microdados_enem_2022.dim_dados_do_participante` (
     NU_INSCRICAO STRING OPTIONS(description="Número de inscrição do participante"),
     TP_FAIXA_ETARIA STRING OPTIONS(description="Faixa etária do participante"),
     TP_SEXO STRING OPTIONS(description="Sexo do participante"),

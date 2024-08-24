@@ -1,4 +1,4 @@
-CREATE TABLE `tcc-tsi.microdados_enem_2022.dim_dados_da_prova_objetiva` (
+CREATE OR REPLACE TABLE `tcc-tsi.microdados_enem_2022.dim_dados_da_prova_objetiva` (
     NU_INSCRICAO STRING OPTIONS(description="Número de inscrição do participante"),
     CO_PROVA_CN STRING OPTIONS(description="Código da prova de Ciências da Natureza"),
     CO_PROVA_CH STRING OPTIONS(description="Código da prova de Ciências Humanas"),

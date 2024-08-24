@@ -1,4 +1,4 @@
-CREATE TABLE `tcc-tsi.microdados_enem_2022.dim_dados_da_redacao` (
+CREATE OR REPLACE TABLE `tcc-tsi.microdados_enem_2022.dim_dados_da_redacao` (
     NU_INSCRICAO STRING OPTIONS(description="Número de inscrição do participante"),
     NU_NOTA_REDACAO FLOAT64 OPTIONS(description="Nota total da redação"),
     TP_STATUS_REDACAO STRING OPTIONS(description="Status da redação do participante"),

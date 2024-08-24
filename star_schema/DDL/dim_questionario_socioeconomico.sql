@@ -1,4 +1,4 @@
-CREATE TABLE `tcc-tsi.microdados_enem_2022.dim_questionario_socioeconomico` (
+CREATE OR REPLACE TABLE `tcc-tsi.microdados_enem_2022.dim_questionario_socioeconomico` (
     NU_INSCRICAO STRING OPTIONS(description="Número de inscrição do participante"),
     Q001 STRING OPTIONS(description="Grau de instrução do pai ou responsável do participante"),
     Q002 STRING OPTIONS(description="Grau de instrução da mãe ou responsável do participante"),
